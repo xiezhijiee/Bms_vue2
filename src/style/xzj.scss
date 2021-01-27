@@ -1,7 +1,9 @@
 
 
-$wdsColor:rgb(235, 43, 123);
+$wdsColor:rgb(0, 0, 0);
 $wdsSize:14px;
+$allColor: #e7a7a7;
+// $bcolor:
 
 //position
 .x-rela{
@@ -20,3 +22,10 @@ $wdsSize:14px;
 .x-text-center{
     text-align: center;
 }
+
+// flex
+
+.x-flex{
+    display: flex;
+}
+

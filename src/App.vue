@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-19 19:21:15
- * @LastEditTime: 2021-01-26 18:12:36
+ * @LastEditTime: 2021-01-27 18:27:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \xzj_v\src\App.vue
@@ -9,7 +9,6 @@
 <template>
   <div id="app">
     <router-view/>
-
   </div>
 </template>
 
