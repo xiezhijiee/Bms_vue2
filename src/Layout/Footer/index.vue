@@ -1,18 +1,13 @@
 <!--
  * @Author: your name
- * @Date: 2021-01-27 16:55:20
- * @LastEditTime: 2021-01-27 17:17:52
+ * @Date: 2021-01-27 17:16:01
+ * @LastEditTime: 2021-01-27 17:16:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \xzj_v\src\Layout\index.vue
+ * @FilePath: \Bms_vue2\src\Layout\Footer\index.vue
 -->
-
 <template>
-<div class="content">
-
-
-</div>
- 
+  
 </template>
 
 <script>

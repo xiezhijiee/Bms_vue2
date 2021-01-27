@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-19 19:21:15
- * @LastEditTime: 2021-01-27 16:56:52
+ * @LastEditTime: 2021-01-27 17:10:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \xzj_v\src\router\index.js
@@ -12,7 +12,12 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", name: "Index", component: () => import("@/Layout/index.vue")},
+  {
+    path: "/",
+    name: "Index",
+    component: () => import("@/Layout/index.vue"),
+    children: [{ path: "", name: "", component: component, children: [] }],
+  },
   // {
   //   path: '/',
   //   name: 'Home',
