@@ -1,17 +1,12 @@
 <!--
  * @Author: your name
- * @Date: 2021-01-27 17:14:53
- * @LastEditTime: 2021-01-29 17:18:49
+ * @Date: 2021-01-29 18:06:28
+ * @LastEditTime: 2021-01-29 18:06:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \Bms_vue2\src\Layout\Main\index.vue
+ * @FilePath: \Bms_vue2\src\views\c-zxy-food\index.vue
 -->
 <template>
-
-
-<div >
-    <router-view></router-view>
-</div>
   
 </template>
 

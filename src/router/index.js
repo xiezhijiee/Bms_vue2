@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-19 19:21:15
- * @LastEditTime: 2021-01-27 18:28:01
+ * @LastEditTime: 2021-01-29 18:12:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \xzj_v\src\router\index.js
@@ -14,9 +14,24 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
+    redirect: "/zxy", //重定向
     name: "Index",
     component: () => import("@/Layout/index.vue"),
-    
+    children: [
+      {
+        path: "zxy",
+        redirect: "/zxy/c-zxy-food", //重定向
+        name: "zxy",
+        component: () => import("@/views/zxy"),
+        children: [
+          {
+            path: "c-zxy-food",
+            name: "c-zxy-food",
+            component: () => import("@/views/c-zxy-food"),
+          },
+        ],
+      },
+    ],
   },
   // {
   //   path: '/',

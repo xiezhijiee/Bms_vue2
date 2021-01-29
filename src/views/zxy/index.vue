@@ -1,18 +1,13 @@
 <!--
  * @Author: your name
- * @Date: 2021-01-27 17:14:53
- * @LastEditTime: 2021-01-29 17:18:49
+ * @Date: 2021-01-29 17:36:26
+ * @LastEditTime: 2021-01-29 17:36:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \Bms_vue2\src\Layout\Main\index.vue
+ * @FilePath: \Bms_vue2\src\views\zxy\zxy.vue
 -->
 <template>
-
-
-<div >
-    <router-view></router-view>
-</div>
-  
+  <div>zxy 页面</div>
 </template>
 
 <script>
